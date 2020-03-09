@@ -10,7 +10,8 @@ module.exports = {
     devServer : {
         contentBase : './dist',
         open: true,
-        // host : '0.0.0.0'
+        host : '0.0.0.0',
+        useLocalIp: true
     },
     entry : path.resolve(__dirname, '../src/index.js'), //entrée vers notre projet //chemin vers le fichier
     output : 
